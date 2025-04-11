@@ -1,31 +1,41 @@
-<<<<<<< HEAD
-# QR-Code-Generator
-A simple QR Code Generator built with Python using pyqrcode, pypng, and Pillow. This tool allows you to convert any website URL into a QR code image, which can be saved and viewed instantly.
-=======
-# QR-Code-Generator - Python
+<h1 align="center">📸 QR Code Generator</h1>
 
-# Description:
-QR Code Generator in Python using pyqrcode, pypng and pillow Library.
+<p align="center">
+  <i>Generate QR codes instantly using a clean Python script.</i><br>
+  <b>Convert text or URLs into scannable images – for websites, apps, contact info, or promotions.</b>
+</p>
 
-# How to use
-1. Install Python 3.9.X from [here](https://www.python.org/downloads)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Made%20With-PyQRCode%20%7C%20Pillow%20%7C%20pypng-orange?style=for-the-badge" />
+</p>
 
-2. Install pyqrcode from [here](https://pypi.org/project/PyQRCode)
+---
 
-3. Install pypng from [here](https://pypi.org/project/pypng)
+## 🚀 About This Project
 
-4. Install Pillow from [here](https://pypi.org/project/Pillow/2.2.2)
+This is a Python-based QR Code Generator that uses `pyqrcode`, `pypng`, and `Pillow` libraries.  
+With just a few lines of input, you can generate and view a QR code that links to any URL or contains any custom message.
 
-5. Clone this repository: git clone `https://github.com/mdhasibulhasan3137/QR-Code-Generator` or click `Download ZIP` in the right panel and extract it.
+---
 
-6. Run `python main.py` from the repository's directory
+## 🖼 Preview
 
-7. Insert your website url.
+<p align="center">
+  <img src="qr-code.png" alt="Sample QR Code" width="200"/>
+</p>
 
-8. You get your QR core.
+---
 
-If you want to use it in Jupyter Notebook then open `QR Code Generator(Jupyter NoteBook).ipynb`
+## ⚙️ Requirements
 
-If you want to use it in Google Colab then open `QR_Code_Generator(Google Colab).ipynb`
+- Python 3.9+
+- Libraries:
+  - `pyqrcode`
+  - `pypng`
+  - `Pillow`
 
->>>>>>> 38844b4 (Initial commit)
+Install them using:
+```bash
+pip install pyqrcode pypng Pillow
