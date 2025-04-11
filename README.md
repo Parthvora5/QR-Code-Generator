@@ -39,3 +39,10 @@ With just a few lines of input, you can generate and view a QR code that links t
 Install them using:
 ```bash
 pip install pyqrcode pypng Pillow
+
+📦 QR-Code-Generator/
+┣ 📜 main.py                         ← Terminal-based script
+┣ 📓 QR Code Generator(Jupyter).ipynb  ← Interactive notebook
+┣ 📓 QR_Code_Generator(Google Colab).ipynb ← Cloud notebook
+┣ 🖼 qr-code.png                     ← Sample output image
+┣ 📄 README.md                      ← Project overview
